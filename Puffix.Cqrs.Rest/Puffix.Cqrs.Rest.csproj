@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Puffix.io - Romain Ehret</Authors>
+    <Company>Puffix.io - Romain Ehret</Company>
+    <Description>REST extension for CQRS framework implementation, to facilitate REST calls.</Description>
+    <Copyright>Copyright 2021 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
+    <PackageLicenseFile>Licence.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/EhRom/Puffix.Cqrs.Rest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/EhRom/Puffix.Cqrs.Rest</RepositoryUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>REST Extension CQRS Puffix Framework</PackageTags>
+    <PackageReleaseNotes>REST for Puffix CQRS framework implementation.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Puffix.Cqrs" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Puffix.Mvvm\Puffix.Mvvm\Licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="Licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
