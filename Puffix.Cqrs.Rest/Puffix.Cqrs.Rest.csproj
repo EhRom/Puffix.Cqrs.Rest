@@ -13,6 +13,9 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>REST Extension CQRS Puffix Framework</PackageTags>
     <PackageReleaseNotes>REST for Puffix CQRS framework implementation.</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
