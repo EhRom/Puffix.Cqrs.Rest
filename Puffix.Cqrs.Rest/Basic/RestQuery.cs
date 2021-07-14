@@ -88,14 +88,12 @@ namespace Puffix.Cqrs.Rest.Basic
         {
             // Envoi de la requête et traitement de la réponse.
             string result;
-            using (HttpClient client = new HttpClient())
-            using (HttpResponseMessage response = await client.GetAsync(serviceUri))
-            {
-                response.EnsureSuccessStatusCode();
+            using HttpClient client = new HttpClient();
+            using HttpResponseMessage response = await client.GetAsync(serviceUri);
+            response.EnsureSuccessStatusCode();
 
-                // Lecture du contenu de la réponse.
-                result = await response.Content.ReadAsStringAsync();
-            }
+            // Lecture du contenu de la réponse.
+            result = await response.Content.ReadAsStringAsync();
 
             // Déclaration du résultat de la requête.
             RestQueryResultT queryResult = ParseResult(result);
