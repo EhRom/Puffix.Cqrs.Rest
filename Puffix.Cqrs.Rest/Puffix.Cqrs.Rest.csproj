@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+	  <TargetFrameworks>net8.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Puffix.io - Romain Ehret</Authors>
     <Company>Puffix.io - Romain Ehret</Company>
@@ -15,18 +15,18 @@
     <PackageReleaseNotes>REST for Puffix CQRS framework implementation.</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
-    <Version>3.2.1</Version>
-	  <AssemblyVersion>3.2.1.0</AssemblyVersion>
-	  <AssemblyFileVersion>3.2.0.0</AssemblyFileVersion>
+    <Version>3.2.2</Version>
+	  <AssemblyVersion>3.2.2.0</AssemblyVersion>
+	  <AssemblyFileVersion>3.2.2.0</AssemblyFileVersion>
     <Nullable>warnings</Nullable>
     <DelaySign>False</DelaySign>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
-    <PackageReference Include="Puffix.Cqrs" Version="3.2.0" />
-    <PackageReference Include="System.Text.Json" Version="8.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+    <PackageReference Include="Puffix.Cqrs" Version="3.2.2" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup>
