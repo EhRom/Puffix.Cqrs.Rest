@@ -6,7 +6,7 @@
     <Authors>Puffix.io - Romain Ehret</Authors>
     <Company>Puffix.io - Romain Ehret</Company>
     <Description>REST extension for CQRS framework implementation, to facilitate REST calls.</Description>
-    <Copyright>Copyright 2024 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
+    <Copyright>Copyright 2025 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
     <PackageLicenseFile>Licence.txt</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/EhRom/Puffix.Cqrs.Rest</PackageProjectUrl>
     <RepositoryUrl>https://github.com/EhRom/Puffix.Cqrs.Rest</RepositoryUrl>
@@ -15,18 +15,18 @@
     <PackageReleaseNotes>REST for Puffix CQRS framework implementation.</PackageReleaseNotes>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
-    <Version>3.3.1</Version>
-	  <AssemblyVersion>3.3.1.0</AssemblyVersion>
-	  <AssemblyFileVersion>3.3.1.0</AssemblyFileVersion>
+    <Version>3.3.2</Version>
+	  <AssemblyVersion>3.3.2.0</AssemblyVersion>
+	  <AssemblyFileVersion>3.3.2.0</AssemblyFileVersion>
     <Nullable>warnings</Nullable>
     <DelaySign>False</DelaySign>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
-    <PackageReference Include="Puffix.Cqrs" Version="3.3.1" />
-    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.5" />
+    <PackageReference Include="Puffix.Cqrs" Version="3.3.2" />
+    <PackageReference Include="System.Text.Json" Version="9.0.5" />
   </ItemGroup>
 
   <ItemGroup>
